@@ -27,5 +27,20 @@ int main() {
     }
     cout << endl;           // Print new first element
 
+    list<int> l={1, 2, 3, 4, 5};
+    l.push_back(6);          // Add 6 at the end
+    l.push_front(10);     // Add 10 at the beginning
+
+    auto it = l.begin();
+    advance(it, 2);      // Move iterator to the 3rd position
+    cout<<*it<<endl;
+
+    l.earese(it);        // Remove element at 3rd position
+    for (int val : l) {
+        cout << val << " ";
+    }
+    cout << endl;
+
+
     return 0;
 }
