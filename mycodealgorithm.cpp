@@ -1,3 +1,5 @@
+///selection sort 
+
 #include<bits/stdc++.h>
 using namespace std;
 void selectSort(int array[], int n)
@@ -27,6 +29,8 @@ int main(){
     printArray(arr, n);
     return 0;
 }
+
+///bubble sort
 #include <bits/stdc++.h>
 using namespace std;
 void bubbleSort(int arr[],int n){
